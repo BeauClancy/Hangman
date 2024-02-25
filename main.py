@@ -54,6 +54,8 @@ def loosing_play_loop():
 
 # Initializing all the conditions required for this game:
 def hangman():
+    """Function for playing a round of the game Hangman"""
+    
     global count
     global display
     global word
