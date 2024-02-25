@@ -39,8 +39,8 @@ def main():
     play_game = ""
 
 
-# A loop to re-execute the game when the first round ends:
 def loosing_play_loop():
+    """Function for re-executing the game when the first round ends"""
     global play_game
     play_game = input("Are you for redeeming yourself? y = yes, n = no \n")
     while play_game not in ["y", "n", "Y", "N"]:
